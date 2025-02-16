@@ -27,5 +27,6 @@ Route::get('auth/dashboard', [App\Http\Controllers\Auth\DashboardController::cla
 
 
 Route::resource('auth/Posts', PostController::class);
+Route::resource('auth/Posts', PostController::class);
 
 
